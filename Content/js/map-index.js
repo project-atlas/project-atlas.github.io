@@ -36,4 +36,3 @@ function Pushpin(map, location, pushpinOptions, id) {
 
     MAPS.Events.addHandler(this._pushpin, 'click', pushpinOnClick);
 }
-
