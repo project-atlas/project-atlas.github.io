@@ -31,7 +31,7 @@ function Pushpin(map, location, pushpinOptions, id) {
     this.id = id;
     var self = this;
     var pushpinOnClick = function () { 
-        window.open("Explorers/" + self.id, "_self");
+        window.open("explorers/" + self.id, "_self");
     }
 
     MAPS.Events.addHandler(this._pushpin, 'click', pushpinOnClick);
