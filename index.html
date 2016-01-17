@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Home | Project Atlas</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet" type="text/css">
+
+	<link rel="stylesheet" href="external/bootstrap.min.css">
+	<link rel="stylesheet" href="external/font-awesome.min.css">
+	<link rel="stylesheet" href="Content/css/site.css" />
+	<link rel="stylesheet" type="text/css" href="Content/css/lib/component.css" />
+
+</head>
+
+<body>
+
+
+
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+				aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html"><img src="Content/img/logos/logo-nav.png" id="nav-logo" alt="Project Atlas Logo" /></a>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li><a href="explorers.html">Explorers</a></li>
+					<li><a href="map.html">Map</a></li>
+
+					<li><a href="feed.html">Feed</a></li>
+				</ul>
+				<ul style="float: right;">
+					<li>
+						<a href="https://www.facebook.com/pages/Project-Atlas/830449697032675"><img src="social_media_icons/FB-f-Logo__white_100.png" width="25" height="25" alt="Facebook" style="margin-top: 11px;"
+							/></a>
+						<a href="https://twitter.com/projectatlasms" style="padding-left: 5px;"><img src="social_media_icons/Twitter-icon.png.png" width="29" height="29" alt="Twitter" style="margin-top: 11px;" /></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<section id="home-hero">
+		<div class="container">
+			<h2>Hello! Thanks for stopping by.</h2>
+			<h6>We’re Explorers, created in 2015 by a group of Microsoft interns. </h6>
+			<h6>We want to learn more about the people here, so we're on a mission to go out and see the world!</h6>
+		</div>
+	</section>
+
+
+
+	<section id="home-map">
+		<div id="mapDiv" class="map"></div>
+	</section>
+
+	<section id="home-about">
+		<div class="container">
+			<div class="row text-and-image">
+				<div class="col-md-4">
+					<img src="Content/img/bots/msbotsfinal.png" />
+
+				</div>
+				<div class="col-md-8">
+					<h4>Meet the Explorers</h4>
+					<p>
+						We are currently working to launch 16 Explorers into the world! They will appear on the map one by one as their hosts receive
+						them over the next week—check back regularly to see what they've been up to since starting their journeys!
+					</p>
+					<p><a class="btn btn-default btn-outline" href="map.html">See Where They&#39;ve Been</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="home-team">
+		<div class="container">
+			<div class="row text-and-image">
+				<div class="col-md-8">
+					<h4>Meet the Team</h4>
+					<p>
+						A small group of Microsoft interns put this project together. Get to know a little more about how this project started and
+						the interns that made it happen.
+					</p>
+					<p>
+						<a class="btn btn-default btn-outline" href="about.html">Learn More About the Team</a>
+					</p>
+				</div>
+				<div class="col-md-4">
+					<img src="Content/img/team.png" />
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<footer>
+		<div class="container">
+			Copyright &copy; 2015 Project Atlas. This is an independent site that does not represent Microsoft in any way. <a href="mailto:contact@projectatlas.ms"> Get in touch with us!</a>
+		</div>
+	</footer>
+
+	<script src="external/jquery.min.js"></script>
+	<script src="external/bootstrap.min.js"></script>
+
+	<script>
+		var COORDINATES = [{"botSlug":"12df8226ecaa179bdc7a03a8a99eb858","imageUrl":"Content/img/bots/bot-blue.png","latitude":"39.9525839","longitude":"-75.1652215"},{"botSlug":"3b0005db43939a5b191e59958d269a56","imageUrl":"Content/img/bots/bot-blue.png","latitude":"38.2975381","longitude":"-122.286865"},{"botSlug":"69ae407e614d2cc76b0e37b7691fcb1f","imageUrl":"Content/img/bots/bot-red.png","latitude":"40.0149856","longitude":"-105.2705456"},{"botSlug":"7b0e33d51f37048c18bfbca9d7a9c33f","imageUrl":"Content/img/bots/bot-yellow.png","latitude":"49.1658836","longitude":"-123.9400647"},{"botSlug":"a77eed0459cb97ec95c0f1872ea94e9a","imageUrl":"Content/img/bots/bot-blue.png","latitude":"38.9896967","longitude":"-76.93776"},{"botSlug":"b9d110799045420f03b13d2526341651","imageUrl":"Content/img/bots/bot-yellow.png","latitude":"42.9869502","longitude":"-81.243177"}];
+	</script>
+	<script type="text/javascript" src='https://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0&amp;s=1'></script>
+	<script src="Content/js/map-common.js"></script>
+	<script src="Content/js/map-index.js"></script>
+
+</body>
+
+</html>

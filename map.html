@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+        <meta charset="utf-8" />
+        <title>Where We&#39;ve Been | Project Atlas</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet" type="text/css">
+        
+	<link rel="stylesheet" href="external/bootstrap.min.css">
+	<link rel="stylesheet" href="external/font-awesome.min.css">
+	<link rel="stylesheet" href="Content/css/site.css" />
+	<link rel="stylesheet" type="text/css" href="Content/css/lib/component.css" />
+
+    </head>
+    <body>
+        
+
+
+<nav class="navbar navbar-default">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="index.html"><img src="Content/img/logos/logo-nav.png" id="nav-logo" alt="Project Atlas Logo" /></a>
+		</div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				<li><a href="explorers.html">Explorers</a></li>
+				<li class="active"><a href="map.html">Map</a></li>
+				
+				<li><a href="feed.html">Feed</a></li>
+			</ul>
+			<ul style="float: right;">
+				<li>
+					<a href="https://www.facebook.com/pages/Project-Atlas/830449697032675"><img src="social_media_icons/FB-f-Logo__white_100.png" width="25" height="25" alt="Facebook" style="margin-top: 11px;" /></a>
+					<a href="https://twitter.com/projectatlasms" style="padding-left: 5px;"><img src="social_media_icons/Twitter-icon.png.png" width="29" height="29" alt="Twitter" style="margin-top: 11px;" /></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<section id="map-container">
+    <div id="mapDiv" class="map map-page"></div>
+    <div class="row">
+        <div class="col-xs-12 map-bot-selectors">
+            <div class="text-center">
+                            <a href="#"><img src=Content/img/bots/bot-blue.png class="bot-selector" data-id="12df8226ecaa179bdc7a03a8a99eb858" /></a>
+                            <a href="#"><img src=Content/img/bots/bot-blue.png class="bot-selector" data-id="3b0005db43939a5b191e59958d269a56" /></a>
+                            <a href="#"><img src=Content/img/bots/bot-red.png class="bot-selector" data-id="69ae407e614d2cc76b0e37b7691fcb1f" /></a>
+                            <a href="#"><img src=Content/img/bots/bot-yellow.png class="bot-selector" data-id="7b0e33d51f37048c18bfbca9d7a9c33f" /></a>
+                            <a href="#"><img src=Content/img/bots/bot-blue.png class="bot-selector" data-id="a77eed0459cb97ec95c0f1872ea94e9a" /></a>
+                            <a href="#"><img src=Content/img/bots/bot-yellow.png class="bot-selector" data-id="b9d110799045420f03b13d2526341651" /></a>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<footer>
+	<div class="container">
+		Copyright &copy; 2015 Project Atlas. This is an independent site that does not represent Microsoft in any way. <a href="mailto:contact@projectatlas.ms"> Get in touch with us!</a>
+	</div>
+</footer>
+
+<script src="external/jquery.min.js"></script>
+<script src="external/bootstrap.min.js"></script>
+
+    <script>
+        var COORDINATES_MULTI = [{"botId":"12df8226ecaa179bdc7a03a8a99eb858","colorClass":"map-pushpin-blue","colorHex":"#3BAFDA","stories":[{"id":"2519595775710129926","latitude":"39.9525839","longitude":"-75.1652215"}]},{"botId":"3b0005db43939a5b191e59958d269a56","colorClass":"map-pushpin-blue","colorHex":"#3BAFDA","stories":[{"id":"2519570134816835557","latitude":"38.2975381","longitude":"-122.286865"},{"id":"2519575293636669097","latitude":"37.8043637","longitude":"-122.2711137"},{"id":"2519594166549912481","latitude":"38.5815719","longitude":"-121.4943996"}]},{"botId":"69ae407e614d2cc76b0e37b7691fcb1f","colorClass":"map-pushpin-red","colorHex":"#DA4453","stories":[{"id":"2519618355439105306","latitude":"40.0149856","longitude":"-105.2705456"}]},{"botId":"7b0e33d51f37048c18bfbca9d7a9c33f","colorClass":"map-pushpin-yellow","colorHex":"#FCBB42","stories":[{"id":"2519602970995852154","latitude":"49.1658836","longitude":"-123.9400647"},{"id":"2519604742927908218","latitude":"47.6739881","longitude":"-122.121512"},{"id":"2519607200966531625","latitude":"47.6062095","longitude":"-122.3320708"}]},{"botId":"a77eed0459cb97ec95c0f1872ea94e9a","colorClass":"map-pushpin-blue","colorHex":"#3BAFDA","stories":[{"id":"2519600364690052245","latitude":"38.9896967","longitude":"-76.93776"}]},{"botId":"b9d110799045420f03b13d2526341651","colorClass":"map-pushpin-yellow","colorHex":"#FCBB42","stories":[{"id":"2519589210753610134","latitude":"42.9869502","longitude":"-81.243177"}]}];
+    </script>
+    <script type="text/javascript" src='https://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0&amp;s=1'></script>
+    <script src="Content/js/map-common.js"></script>
+    <script src="Content/js/map.js"></script>
+
+    </body>
+</html>
